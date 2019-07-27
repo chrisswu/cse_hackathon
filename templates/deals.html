@@ -1,14 +1,19 @@
 {% extends 'base.html' %}
 {% block body %}
 <div id="my-container" class="d-flex justify-content-center">
-    <h1 class="page-title">Today's Deals</h1>
+    <h1 class="page-title">Today's Gibbers</h1>
 </div>
 <div id="container-fluid" style="padding:20px;">
-    <div class="flex-nowrap">
-        <input type="text" class="form-control" placeholder="Search. . . " aria-label="search" aria-describedby="addon-wrapping" style="border:none;border-bottom:1px solid cyan">
+    <div class="searchbar">
+        <input type="text" class="form-control" placeholder="Search. . . " aria-label="search" aria-describedby="addon-wrapping"  style="border:none;">
     </div>
-    <div style="position:absolute;top:0px; right:0px;"><i class="fas fa-search"></i></div>
+    <div class="searchbar-icon">
+        <i class="fas fa-search"></i>
+    </div>   
+    
+    <div style="background-color:pink;height:5px;"></div>
 </div>
+<div>
 
 
 {% endblock %}

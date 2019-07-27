@@ -1,12 +1,28 @@
 {% extends 'base.html' %}
 {% block body %}
+<div class="cover">
+    <div class="donation-header">
+        be a <span style="color:#7f40a1">givr.</span><br>
+        <div class="favourites-list">
+            Enter a charity: 
+            <input type="text" id="donation_value" name="donation_value">
+        </div>
 
-<h1>Donate</h1>
-<form method="POST">
-    <div>
-    <input type="number" id="donation_value" name="donation_value">
-    <button type="submit" name="donate">Donate</button>
+        <img src="{{url_for('static', filename='cutegivingicon.svg')}}">
     </div>
-</form>
+
+    <form method="POST">
+        <div class="donation-input">
+        <input type="number" id="donation_value" placeholder="$" name="donation_value">
+        <button type="submit" name="donate">
+            <div class="submit-gradient">
+                Give 
+            </div>
+        </button>
+        </div>
+    </form>
+            
+</div>
+
 
 {% endblock %}
