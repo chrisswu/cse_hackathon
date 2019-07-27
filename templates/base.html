@@ -14,7 +14,7 @@
             {% block body %}{% endblock %}
             
         <div id="my-footer">
-                <a href="#">
+                <a href="{{ url_for('index')}}">
                     <div class="my-nav">
                         <i class="fas fa-home"></i>
                         <p>Home</p>
@@ -28,7 +28,7 @@
                         </div>
                 </a>
                     
-                <a href="#">
+                <a href="{{ url_for('donation')}}">
                         <div class="my-nav">
                             <i class="fas fa-donate"></i>
                             <p>Donate</p>
