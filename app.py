@@ -14,3 +14,7 @@ def home():
 def charity_infomration():
     return render_template('charity_information.html')
 
+@app.route('/donation', methods=['POST','GET'])
+def donation():
+    return render_template('donation.html')
+
