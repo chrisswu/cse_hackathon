@@ -150,6 +150,36 @@ a:hover {
     display:inline-block;
 }
 
+#progress-bar {
+    width: 365px;
+    background: #cccccc;
+    position: relative;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    box-align:center;
+}
+
+#progress-bar-percentage {
+    background: linear-gradient(-130deg, #FFEDBC, #7f40a1);
+    padding: 5px 0px;
+    color: #FFF;
+    text-align: center;
+    height: 10px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+#progress-bar-percentage span {
+    display: inline-block;
+    position: absolute;
+    width: 120%;
+    left: 0;
+}
+
 /*individual charity */
 .ind-charity-logo {
     position:relative;
@@ -175,8 +205,8 @@ a:hover {
 
 .ind-donate-button {
     position:absolute;
-    top:20px;
-    right:30px;
+    top:25px;
+    right:80px;
     border-radius:15px;
     padding:5px 20px;
     color:white;
