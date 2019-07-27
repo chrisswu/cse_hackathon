@@ -1,6 +1,6 @@
 .cover {
     width: 100vw;
-    min-height: calc(100vh);
+    min-height: calc(145vh);
     background: #7f40a1;  /* fallback for old browsers */
     background: -webkit-linear-gradient(-130deg, #FFEDBC, #7f40a1);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(-130deg, #FFEDBC, #7f40a1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -9,6 +9,8 @@
     align-items: center;
     justify-content: center;
 }
+
+/*DASHBOARD*/
 
 #progress-bar {
     width: 300px;
@@ -41,7 +43,7 @@
 
 .modal {
     width: 300px;
-    height: 250px;
+    height: 160px;
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
     background: white;
     padding: 2rem;
@@ -55,9 +57,19 @@
     color: #444;
     font-family: 'Nunito', sans-serif;
     font-weight: 200;
-    margin-bottom: 0.2rem;
+    margin-bottom: 0rem;
     margin-top: 0rem;
     font-size: 3rem;
+    text-align: center;
+}
+
+.modal h2 {
+    width: 100%;
+    color: #444;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 900;
+    margin-top: 0rem;
+    font-size: 2.5rem;
     text-align: center;
 }
 
@@ -92,7 +104,7 @@
     width: 100%;
     display: flex;
     justify-content: space-around;
-    margin-top: 2rem;
+    margin-top: 0.7rem;
 }
 button {
     margin-left: 1rem;
@@ -100,7 +112,7 @@ button {
     color: #251031;
     font-size: 0.85rem;
     font-family: 'Nunito', sans-serif;
-    padding: 0.2rem 1rem;
+    padding: 0rem 0rem;
     cursor: pointer;
     text-align: left;
 }
@@ -108,6 +120,51 @@ button:hover {
     background: #7f40a1;
     color: white;
 }
+
+/*CHARITY IMPACT*/
+
+.modal3 {
+    width: 300px;
+    height: 205px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    background: white;
+    padding: 2rem;
+    border-radius: 15px;
+    position: absolute;
+    top: 310px;
+}
+
+.modal3 h1 {
+    width: 100%;
+    color: #444;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+    margin-bottom: 0rem;
+    margin-top:-25px;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+.modal3 h2 {
+    width: 100%;
+    color: #444;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 900;
+    margin-top: 0rem;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.modal3 .sub {
+    font-family: 'Nunito', sans-serif;
+    width: 100%;
+    color: #777;
+    font-weight: 100;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+/*TODAY'S GIVRS*/
 
 .modal2 {
     width: 300px;
@@ -117,7 +174,7 @@ button:hover {
     padding: 2rem;
     border-radius: 15px;
     position: absolute;
-    top: 400px;
+    top: 600px;
 }
 
 .modal2 h1 {
