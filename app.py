@@ -21,3 +21,10 @@ def donation():
             return render_template('index.html')
     return render_template('donation.html')
 
+
+@app.route('/deals', methods=['POST','GET'])
+def deals():
+    return render_template('deals.html')
+
+    
+
