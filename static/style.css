@@ -3,11 +3,8 @@
     font-family: 'Source Sans Pro', sans-serif !important;
     box-sizing:border-box;
 }
-#header h1 {
-    color: pink;
-    font-size:18px;
-    text-transform:uppercase;
-    text-align:center;
+#header img {
+    width:80px;
 }
 
 #header{
@@ -70,8 +67,7 @@ a:hover {
 .my-container{
     position:relative;
     width:100%;
-    background-color:orange;
-    padding:10px;
+    padding:10px 30px;
 }
 
 
@@ -134,3 +130,68 @@ a:hover {
     display:inline-block;
 }
 
+/*individual charity */
+.ind-charity-logo {
+    position:relative;
+    left:30px;
+    padding-top:15px;
+}
+
+
+.ind-charity-header {
+    position:fixed;
+    top:0px;
+    width:100%;
+    z-index:1000;
+    height:85px;
+    background-color:white;
+}
+
+.ind-charity-logo img{
+    width:180px;
+    height:30px;
+    margin-top:10px;
+}
+
+.ind-donate-button {
+    position:absolute;
+    top:20px;
+    right:30px;
+    border-radius:15px;
+    padding:5px 20px;
+    background-color:pink;
+}
+
+.banner img {
+    width:100%;
+}
+
+.text-overlay {
+    color:white;
+    font-weight:bold;
+    position:absolute;
+    top:100px;
+    width:90%;
+    text-align:center;
+}
+
+.banner h1{
+    font-size:22px;
+    margin-top:10px;
+    color:#1aba97;
+}
+
+.banner h2{
+    font-size:16px;
+}
+
+#text-block {
+    padding:0px 30px;
+    padding-bottom:80px;
+}
+
+.title1{
+    font-size:22px;
+    color:#1aba97;
+    
+}
