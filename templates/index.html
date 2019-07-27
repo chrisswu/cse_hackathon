@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {% extends 'base.html' %}
 {% block body %}
         <div class="container-fluid">
@@ -109,3 +110,40 @@
         </div>
         
 {% endblock %}
+=======
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>givr</title>
+    <meta name="author" content="____">
+    <meta name="description" content="test">
+    <!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">-->
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+    <link href="https://cdn.materialdesignicons.com/3.5.95/css/materialdesignicons.min.css" rel="stylesheet">
+    <link href="{{url_for('static', filename='home.css')}}?v={{build_num}}" rel="stylesheet">
+  </head>
+
+  <body style="margin: 0px">
+  <center> <img src="static/icon.png" alt="givr_logo" width=20% height=20%> </center>
+    <div class="cover">
+      <div class="modal">
+          <h1>givr</h1>
+          <p class="sub"><i>inspiring a new generation of givers</i></p>
+          <br>
+                
+          <h1 style="font-size:22px; text-align:center"> Your Charities </h1>
+
+          <p class ="sub2"> Charity Name </p>
+
+          <div id="progress-bar" class="all-rounded">
+              <div id="progress-bar-percentage" class="sub3" style="width: 68%">
+                <span>89/100</span></div>
+          </div>
+
+        </div>
+      </div>
+  </body>
+</html>
+>>>>>>> 0f77f8926cec5a53359976dedb35ecd3e0778765
