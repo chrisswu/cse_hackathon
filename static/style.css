@@ -48,6 +48,10 @@
     text-align:center !important;
 
 }
+
+.my-nav p{
+    padding-top:0px !important;
+}
 a {
     -webkit-transition: all .4s ease-in-out;
     -moz-transition: all .4s ease-in-out;
@@ -346,8 +350,11 @@ a:hover {
     background:-webkit-linear-gradient(-130deg, #c2a7d1, #7f40a1);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+
     font-size:24px;
 }
+
+
 
 .favourites-list {
     font-size:16px;

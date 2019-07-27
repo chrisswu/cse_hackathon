@@ -243,6 +243,7 @@ button:hover {
 }
 #my-footer {
     display:flex;
+    height:78px; 
     justify-content:space-between;
     text-align:center !important;
     font-family: 'Nunito Sans', sans-serif;
@@ -250,7 +251,7 @@ button:hover {
     background:-webkit-linear-gradient(-130deg, #FFEDBC, #7f40a1);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-weight:bold;
+    font-weight:bold !important;
 }
 
 .my-nav {
@@ -259,7 +260,13 @@ button:hover {
     text-transform: lowercase;
     margin:15px;
     text-align:center !important;
+    font-weight:bold !important;
 
+
+}
+
+.my-nav p{
+    margin-top:3px !important;
 }
 a {
     -webkit-transition: all .4s ease-in-out;
@@ -279,3 +286,9 @@ a:hover {
     transform: scale(1.1);
     }
 
+.my-gradient {
+    background:-webkit-linear-gradient(-130deg, #c2a7d1, #7f40a1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size:24px;
+}
