@@ -6,7 +6,7 @@ app.config['DEBUG'] = True
 app.config['TESTING'] = True 
 
 @app.route('/', methods=['POST','GET'])
-def home():
+def index():
     # if request.method  == 'POST':
     return render_template('index.html')
 
@@ -16,5 +16,8 @@ def charity_infomration():
 
 @app.route('/donation', methods=['POST','GET'])
 def donation():
+    if request.method == 'POST':
+        if "donate" in request.form:
+            return render_template('index.html')
     return render_template('donation.html')
 
