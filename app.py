@@ -15,9 +15,9 @@ donation_value = 0
 def index():
     if 'dv' in session:
         try:
-                donation_value = int(session['dv'])
+            donation_value = int(session['dv'])
         except(ValueError):
-                donation_value = 0
+            donation_value = 0
         value = calculate_value(donation_value,donation_goal,curr_don_perc)
         return render_template('index.html', curr_value=value)
     return render_template('index.html', curr_value=curr_don_perc)
@@ -36,7 +36,6 @@ def donation():
             print(session['dv'])
             return redirect('/')
     return render_template('donation.html')
-
 
 
 @app.route('/deals', methods=['POST','GET'])
