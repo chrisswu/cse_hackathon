@@ -153,7 +153,6 @@ a:hover {
 #progress-bar {
     width: 365px;
     background: #cccccc;
-    position: relative;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
     border-top-left-radius: 5px;
@@ -176,7 +175,6 @@ a:hover {
 #progress-bar-percentage span {
     display: inline-block;
     position: absolute;
-    width: 120%;
     left: 0;
 }
 
@@ -206,7 +204,7 @@ a:hover {
 .ind-donate-button {
     position:absolute;
     top:25px;
-    right:80px;
+    right:30px;
     border-radius:15px;
     padding:5px 20px;
     color:white;
