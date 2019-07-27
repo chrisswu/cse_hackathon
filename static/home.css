@@ -47,7 +47,7 @@
     padding: 2rem;
     border-radius: 15px;
     position: absolute;
-    top: 30px;
+    top: 65px;
 }
 
 .modal h1 {
@@ -97,16 +97,80 @@
 button {
     margin-left: 1rem;
     outline: none;
-    background: white;
-    border: 1px solid #7f40a1;
-    color: #7f40a1;
-    border-radius: 15px;
-    font-size: 1rem;
+    color: #251031;
+    font-size: 0.85rem;
     font-family: 'Nunito', sans-serif;
     padding: 0.2rem 1rem;
     cursor: pointer;
+    text-align: left;
 }
 button:hover {
     background: #7f40a1;
     color: white;
+}
+
+.modal2 {
+    width: 300px;
+    height: 310px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    background: white;
+    padding: 2rem;
+    border-radius: 15px;
+    position: absolute;
+    top: 400px;
+}
+
+.modal2 h1 {
+    width: 100%;
+    color: #444;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 900;
+    margin-bottom: 0rem;
+    margin-top: 0rem;
+    font-size: 1.7rem;
+    text-align: center;
+}
+
+.modal2 .sub {
+    font-family: 'Nunito', sans-serif;
+    width: 100%;
+    color: #777;
+    font-weight: 100;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+.modal2 .sub2 {
+    outline: none;
+    background: white;
+    border: 1px solid #251031;
+    color: #251031;
+    border-radius: 15px;
+    display: inline-block;
+    font-family: 'Nunito', sans-serif;
+    padding: 0.2rem 1rem;
+    font-weight: 200;
+    font-size: 0.7rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.horizontal-scroll{
+    flex-wrap:nowrap;
+    overflow-x:scroll; 
+    display:flex;
+}
+
+.my-container{
+    position:relative;
+    width:95%;
+    padding:5px 5px;
+}
+
+.charity-updates {
+    margin-right:12px;
+    flex:0 0 auto;
+    border: 3px solid white;
+    color: white;
+    padding: 0.2rem 1rem;
 }
