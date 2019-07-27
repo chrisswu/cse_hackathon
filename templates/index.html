@@ -10,7 +10,6 @@
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
     <link href="https://cdn.materialdesignicons.com/3.5.95/css/materialdesignicons.min.css" rel="stylesheet">
     <link href="{{url_for('static', filename='home.css')}}?v={{build_num}}" rel="stylesheet">
-    <link rel="stylesheet" href="static/home.css">
   </head>
 
   <body style="margin: 0px">
@@ -30,7 +29,7 @@
 
           <div id="progress-bar" class="all-rounded">
               <div id="progress-bar-percentage" class="sub3" style="width:{{ curr_value }}%"">
-                <span>{{curr_value}}/100</span></div>              
+                <span>{{curr_value}}/100%</span></div>              
           </div>
 
       </div>
@@ -94,7 +93,7 @@
 
       </div>
       <!-- FOOTER -->
-      <div class="footer-wrap">
+      <div class="footer-wrap" style="bottom:0">
         <div id="my-footer">
             <a href="{{ url_for('index') }}">
                 <div class="my-nav hvr-grow">
