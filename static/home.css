@@ -1,6 +1,6 @@
 .cover {
     width: 100vw;
-    min-height: calc(145vh);
+    min-height: calc(150vh);
     background: #7f40a1;  /* fallback for old browsers */
     background: -webkit-linear-gradient(-130deg, #FFEDBC, #7f40a1);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(-130deg, #FFEDBC, #7f40a1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -13,6 +13,7 @@
 /*DASHBOARD*/
 
 #progress-bar {
+
     width: 300px;
     background: #cccccc;
     position: relative;
@@ -169,7 +170,7 @@ button:hover {
 
 .modal2 {
     width: 300px;
-    height: 310px;
+    height: 300px;
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
     background: white;
     padding: 2rem;
@@ -251,7 +252,7 @@ button:hover {
     background:-webkit-linear-gradient(-130deg, #FFEDBC, #7f40a1);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-weight:bold !important;
+    /*font-weight:bold !important;*/
 }
 
 .my-nav {
@@ -260,9 +261,7 @@ button:hover {
     text-transform: lowercase;
     margin:15px;
     text-align:center !important;
-    font-weight:bold !important;
-
-
+    /*font-weight:bold !important;*/
 }
 
 .my-nav p{
