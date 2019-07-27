@@ -10,9 +10,11 @@
             <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
         </head>
         <body>
-            <center>
-            <img src="static/icon.png" alt="givr_logo" width=20% height=20%>
-            </center>
+            <div class="container-fluid">
+                <div id="header" class="d-flex justify-content-center">
+                    <img src="static/icon.png" alt="givr_logo">
+                </div>
+            </div>
             {% block body %}{% endblock %}
         </body>
     <!-- FOOTER -->
