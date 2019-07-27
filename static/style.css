@@ -27,6 +27,9 @@
     font-size:10px;
 }
 
+.card-body {
+    padding:5px !important;
+}
 
 .subtitle {
     color:black;
@@ -34,7 +37,8 @@
     margin-bottom:10px;
 }
 
-#yourimpact {
+/*SEE WHAT YOUR CHARITIES HAVE DONE IWTH YOUR $26 RECENTLY */
+.my-container{
     position:relative;
     width:100%;
     top:30px;
@@ -53,4 +57,33 @@
 .charity-updates {
     margin-right:15px;
     flex:0 0 auto;
+}
+/* total donated */
+.totaldonated {
+    background-color:#7fd4ba;
+    color:white;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    height:200px;
+}
+.totaldonated-body{
+    color:white;
+    text-align:center;
+}
+
+/*SEE WHAT YOUR CHARITIES HAVE DONE IWTH YOUR $26 RECENTLY */
+#dashboard {
+    position:relative;
+    display:flex;
+    background-color:#ebebeb;
+    height:200px;
+    padding:10px;
+}
+
+
+.rounded-container {
+    border-radius:15px;
+    background-color:white;
+    
 }
