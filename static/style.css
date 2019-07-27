@@ -1,8 +1,9 @@
 *{
     margin:0px;
-    font-family: 'Source Sans Pro', sans-serif !important;
+    font-family: 'Source Sans Pro', sans-serif;
     box-sizing:border-box;
 }
+
 #header img {
     width:80px;
 }
@@ -193,5 +194,10 @@ a:hover {
 .title1{
     font-size:22px;
     color:#1aba97;
-    
+}
+
+.page-title {
+    font-size:22px;
+    font-weight:bold;
+    padding:10px;
 }
