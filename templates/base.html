@@ -7,48 +7,52 @@
             <meta name="viewport" content="width=device-width, initial-scale=1">
             <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
             <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-            <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap" rel="stylesheet">
+
         </head>
         <body>
            
             {% block body %}{% endblock %}
             
-        <div id="my-footer">
-                <a href="{{ url_for('index')}}">
-                    <div class="my-nav">
-                        <i class="fas fa-home"></i>
+        <div class="footer-wrap">
+            <div id="my-footer">
+                <a href="{{ url_for('index') }}">
+                    <div class="my-nav hvr-grow">
+                        <i class="fas fa-home my-gradient"></i>
                         <p>Home</p>
                     </div>
                 </a>
                     
                 <a href="#">
-                        <div class="my-nav">
-                            <i class="fas fa-hand-holding-heart"></i>
+                        <div class="my-nav hvr-grow">
+                            <i class="fas fa-hand-holding-heart my-gradient"></i>
                             <p>Charities</p>
                         </div>
                 </a>
                     
-                <a href="{{ url_for('donation')}}">
-                        <div class="my-nav">
-                            <i class="fas fa-donate"></i>
+                <a href="{{ url_for('donation') }}">
+                        <div class="my-nav hvr-grow">
+                            <i class="fas fa-donate my-gradient"></i>
                             <p>Donate</p>
                         </div>
                 </a>
             
                 <a href="#">
-                        <div class="my-nav">
-                            <i class="fas fa-award"></i>
+                        <div class="my-nav hvr-grow">
+                            <i class="fas fa-award my-gradient"></i>
                             <p>Givers</p>
                         </div>
                 </a>
                 <a href="#">
-                        <div class="my-nav">
-                            <i class="far fa-user"></i>
+                        <div class="my-nav hvr-grow">
+                            <i class="far fa-user my-gradient"></i>
                             <p>Account</p>
                         </div>
                 </a>
                     
             </div>
+        </div>
+        
         </body>
     <!-- FOOTER -->
     
