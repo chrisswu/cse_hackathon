@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
     <link href="https://cdn.materialdesignicons.com/3.5.95/css/materialdesignicons.min.css" rel="stylesheet">
     <link href="{{url_for('static', filename='home.css')}}?v={{build_num}}" rel="stylesheet">
+    <link rel="stylesheet" href="static/home.css">
   </head>
 
   <body style="margin: 0px">
@@ -92,6 +93,45 @@
             </div>
 
       </div>
+      <!-- FOOTER -->
+      <div class="footer-wrap">
+        <div id="my-footer">
+            <a href="{{ url_for('index') }}">
+                <div class="my-nav hvr-grow">
+                    <i class="fas fa-home my-gradient"></i>
+                    <p>Home</p>
+                </div>
+            </a>
+                
+            <a href="#">
+                    <div class="my-nav hvr-grow">
+                        <i class="fas fa-hand-holding-heart my-gradient"></i>
+                        <p>Charities</p>
+                    </div>
+            </a>
+                
+            <a href="{{ url_for('donation') }}">
+                    <div class="my-nav hvr-grow">
+                        <i class="fas fa-donate my-gradient"></i>
+                        <p>Donate</p>
+                    </div>
+            </a>
+        
+            <a href="#">
+                    <div class="my-nav hvr-grow">
+                        <i class="fas fa-award my-gradient"></i>
+                        <p>Givers</p>
+                    </div>
+            </a>
+            <a href="#">
+                    <div class="my-nav hvr-grow">
+                        <i class="far fa-user my-gradient"></i>
+                        <p>Account</p>
+                    </div>
+            </a>
+                
+        </div>
+    </div>
 
   </body>
 </html>
