@@ -1,5 +1,56 @@
-.title {
+*{
+    margin:0px;
+    box-sizing:border-box;
+}
+#header h1 {
     color: pink;
-    text-decoration: underline;
-    border-bottom:3px;
+    font-size:18px;
+    text-transform:uppercase;
+    text-align:center;
+}
+
+#header{
+    position:fixed;
+    background-color: white;
+    border-bottom:1px solid #e6e6e6; 
+    width:100%;
+    padding:5px;
+    height:30px;
+    left:0px;
+
+}
+
+
+
+.card{
+    width:120px !important;
+    font-size:10px;
+}
+
+
+.subtitle {
+    color:black;
+    font-size:12px;
+    margin-bottom:10px;
+}
+
+#yourimpact {
+    position:relative;
+    width:100%;
+    top:30px;
+    background-color:orange;
+    padding:10px;
+}
+
+
+.horizontal-scroll{
+    display:flex;
+    flex-wrap:nowrap;
+    overflow-x:auto;
+    
+}
+
+.charity-updates {
+    margin-right:15px;
+    flex:0 0 auto;
 }
